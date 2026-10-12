@@ -22,7 +22,7 @@ services:
     
 
   book_service:
-    image: manisha7799/flm-oct:pythonbook'
+    image: manisha7799/flm-oct:pythonbook
     deploy:
       replicas: 1
     ports:
@@ -32,7 +32,7 @@ services:
     depends_on:
       - db
   borrow_service:
-    image: manisha7799/flm-oct:pythonborrow'
+    image: manisha7799/flm-oct:pythonborrow
     deploy:
       replicas: 1
     ports:
