@@ -1,7 +1,7 @@
 ---
 services:
   db:
-    image: smanisha7799/flm-oct:pythondb
+    image: manisha7799/flm-oct:pythondb
     deploy:
       replicas: 1
     ports:
